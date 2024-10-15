@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE buildprofiles SYSTEM "https://resources.jetbrains.com/writerside/1.0/build-profiles.dtd">
+<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <variables>
+        <primary-color>iris</primary-color>
+        <color-preset>vivid</color-preset>
+        <header-logo>logo.svg</header-logo>
+        <custom-favicons>favicon.png</custom-favicons>
+        <noindex-content>false</noindex-content>
+    </variables>
+
+    <build-profile instance="moggie">
+        <footer>
+            <copyright>2024 Microhacks Ltd</copyright>
+            <link href="https://moggieframe.work">Moggie Home</link>
+            <link href="https://moggieframe.work/docs">Moggie Documentation</link>
+            <link href="https://moggieframe.work/ecosystem">Moggie Ecosystem</link>
+        </footer>
+
+        <sitemap change-frequency="weekly" priority="0.3" />
+
+        <variables>
+            <download-title>Get Moggie</download-title>
+            <download-page>https://github.com/moggie-framework/framework</download-page>
+            <showDownloadButton>true</showDownloadButton>
+            <noindex-content>false</noindex-content>
+        </variables>
+    </build-profile>
+
+</buildprofiles>

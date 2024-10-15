@@ -1,0 +1,19 @@
+{
+  "private":  true,
+  "name": "simple-key-value",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "repository": "https://github.com/moggie-framework/framework",
+  "description": "",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --enable-source-maps --import @moggie/runtime index.js"
+  },
+  "dependencies": {
+    "@moggie/core": "^0.1.0",
+    "@moggie/helpers": "^0.1.0",
+    "@moggie/runtime": "^0.1.0"
+  }
+}
