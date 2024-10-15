@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Moggie Framework" id="welcome" help-id="Moggie-Framework">
+
+<!--    A section combines multiple topics dedicated to a specific subject.
+            Add a starting page to provide an overview of the topics in the section.
+            Start with two topics you want to promote in the <spotlight> group,
+            several important topics in the <primary> group (for example, where to start),
+            several less important topics in the <secondary> group (for example, more advanced topics),
+            and optionally add any other relevant topics in the <misc> group as cards and lists of links
+            (maybe related topics from other sections).
+            Only the spotlight section is limited to two topics.
+            For other groups, try to keep the number between 2 and 6, but you can add more if necessary.-->
+
+    <section-starting-page>
+        <title>Moggie Framework</title>
+        <description>
+            A batteries-optional server framework for people who want to build robust products fast
+        </description>
+
+        <spotlight>
+            <a href="getting-started.md" type="development" summary="Set up your first Moggie project and start building">Get Started</a>
+            <a href="App-Structure.md" type="learn" summary="Get to grips with the important parts of building with Moggie">Framework Fundamentals</a>
+        </spotlight>
+
+        <primary>
+            <title>Building Your App</title>
+            <a href="Routing.md" />
+        </primary>
+
+        <secondary>
+            <title>Road To Production</title>
+            <a href="" summary="Moggie provides a number of ways to simplify testing your application, built on top of the `node:test` module">
+                Testing Your App
+            </a>
+            <a href="" summary="A Moggie app is a plain Node.js project, and so doesn't require complex deployment strategies. Here are some examples of deploying Moggie apps">Deploying A Moggie Application</a>
+        </secondary>
+
+        <!--    Optionally add additional cards and links to topics that are not in this section but may be relevant.    -->
+<!--        <misc>-->
+<!--            <cards>-->
+<!--                <title>Other relevant topics as wide cards</title>-->
+<!--                <a href=""/>-->
+<!--                <a href="" summary="With a custom card summary"/>-->
+<!--                <a href="">Custom card title</a>-->
+<!--                <a href="" summary="With a custom card summary">Custom card title</a>-->
+<!--            </cards>-->
+
+<!--            <cards narrow="true">-->
+<!--                <title>Other relevant topics as narrow cards</title>-->
+<!--                <a href=""/>-->
+<!--                <a href=""/>-->
+<!--                <a href="" summary="With a custom card summary"/>-->
+<!--                <a href="">Custom card title</a>-->
+<!--                <a href="">Custom card title</a>-->
+<!--                <a href="" summary="With a custom card summary">Custom card title</a>-->
+<!--            </cards>-->
+
+<!--            <links>-->
+<!--                <group>-->
+<!--                    <title>Other related topics as links</title>-->
+<!--                    <a href=""/>-->
+<!--                    <a href="" summary="With a custom card summary"/>-->
+<!--                    <a href="">Custom card title</a>-->
+<!--                    <a href="" summary="With a custom card summary">Custom card title</a>-->
+<!--                </group>-->
+<!--                <group>-->
+<!--                    <title>Two in a row</title>-->
+<!--                    <a href=""/>-->
+<!--                    <a href="" summary="With a custom card summary"/>-->
+<!--                    <a href="">Custom card title</a>-->
+<!--                    <a href="" summary="With a custom card summary">Custom card title</a>-->
+<!--                </group>-->
+<!--            </links>-->
+
+<!--            <links narrow="true">-->
+<!--                <group>-->
+<!--                    <title>More related topics</title>-->
+<!--                    <a href=""/>-->
+<!--                    <a href="" summary="With a custom card summary"/>-->
+<!--                    <a href="">Custom card title</a>-->
+<!--                    <a href="" summary="With a custom card summary">Custom card title</a>-->
+<!--                </group>-->
+<!--                <group>-->
+<!--                    <title>Three in a row</title>-->
+<!--                    <a href=""/>-->
+<!--                    <a href=""/>-->
+<!--                    <a href="">Custom card title</a>-->
+<!--                    <a href="">Custom card title</a>-->
+<!--                </group>-->
+<!--                <group>-->
+<!--                    <title>Each group is narrow</title>-->
+<!--                    <a href=""/>-->
+<!--                    <a href=""/>-->
+<!--                    <a href="">Custom card title</a>-->
+<!--                    <a href="">Custom card title</a>-->
+<!--                </group>-->
+<!--            </links>-->
+<!--        </misc>-->
+    </section-starting-page>
+
+</topic>

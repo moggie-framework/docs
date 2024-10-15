@@ -4,9 +4,11 @@
 
 <instance-profile id="moggie"
                  name="Moggie Framework"
-                 start-page="intro.md">
+                 start-page="welcome.topic">
 
-    <toc-element topic="intro.md" href="/"/>
+    <toc-element topic="welcome.topic">
+        <toc-element topic="getting-started.md"/>
+    </toc-element>
     <toc-element topic="Core-Framework.topic">
         <toc-element topic="App-Structure.md"/>
         <toc-element topic="Routing.md"/>

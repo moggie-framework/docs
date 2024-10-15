@@ -1,4 +1,4 @@
-# Intro To Moggie
+# Getting Started
 
 <link-summary>
 Welcome to Moggie; An opinionated but modular web framework

@@ -6,8 +6,4 @@
         <accepts>page.html</accepts>
     </rule>
     -->
-    <rule id="2f545e0c">
-        <description>Created after removal of "How to" from Moggie Framework</description>
-        <accepts>How-to.html</accepts>
-    </rule>
 </rules>

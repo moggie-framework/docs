@@ -1,9 +1,16 @@
 # Routing
 
 <link-summary>
-    To respond to incoming HTTP requests, you need to register route handlers with one of the variations of the built in
-    route plugin. Moggie intentionally supports a limited set of dynamic path specifiers.
+    One of the basic features of a Moggie application, HTTP routing allows you to respond to web requests.
 </link-summary>
+<card-summary>
+    One of the basic features of a Moggie application, HTTP routing allows you to respond to web requests. Learn about
+    static and dynamic paths, routers, groups, and middleware.
+</card-summary>
+<web-summary>
+    One of the basic features of a Moggie application, HTTP routing allows you to respond to web requests. Learn about
+    static and dynamic paths, routers, groups, and middleware.
+</web-summary>
 
 >
 > Like most parts of Moggie, you can easily switch out the Router with a different implementation. Replacing the router
