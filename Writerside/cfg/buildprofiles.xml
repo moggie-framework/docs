@@ -9,6 +9,10 @@
         <header-logo>logo.svg</header-logo>
         <custom-favicons>favicon.png</custom-favicons>
         <noindex-content>false</noindex-content>
+
+        <download-title>Get Moggie</download-title>
+        <download-page>https://github.com/moggie-framework/framework</download-page>
+        <showDownloadButton>true</showDownloadButton>
     </variables>
 
     <build-profile instance="moggie">
@@ -20,13 +24,6 @@
         </footer>
 
         <sitemap change-frequency="weekly" priority="0.3" />
-
-        <variables>
-            <download-title>Get Moggie</download-title>
-            <download-page>https://github.com/moggie-framework/framework</download-page>
-            <showDownloadButton>true</showDownloadButton>
-            <noindex-content>false</noindex-content>
-        </variables>
     </build-profile>
 
 </buildprofiles>
