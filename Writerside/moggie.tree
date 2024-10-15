@@ -6,7 +6,7 @@
                  name="Moggie Framework"
                  start-page="welcome.topic">
 
-    <toc-element topic="welcome.topic">
+    <toc-element topic="welcome.topic" accepts-web-file-names-ref="intro-welcome">
         <toc-element topic="getting-started.md"/>
     </toc-element>
     <toc-element topic="Core-Framework.topic">

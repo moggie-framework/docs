@@ -6,4 +6,9 @@
         <accepts>page.html</accepts>
     </rule>
     -->
+    <rule id="intro-welcome">
+        <accepts>intro.html</accepts>
+        <accepts>intro.md</accepts>
+        <accepts>intro.topic</accepts>
+    </rule>
 </rules>
